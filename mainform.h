@@ -64,6 +64,9 @@ public:
 
     bool Create( wxWindow* parent, wxWindowID id = SYMBOL_MAINFORM_IDNAME, const wxString& caption = SYMBOL_MAINFORM_TITLE, const wxPoint& pos = SYMBOL_MAINFORM_POSITION, const wxSize& size = SYMBOL_MAINFORM_SIZE, long style = SYMBOL_MAINFORM_STYLE );
 
+    // Универсальный обработчик выбора пользователя
+    void UpdateSelectedValue(const wxString& selectedValue);
+
     /// Destructor
     ~MainForm();
 
@@ -72,6 +75,7 @@ public:
 
     /// Creates the controls and sizers
     void CreateControls();
+    
 
 ////@begin MainForm event handler declarations
 

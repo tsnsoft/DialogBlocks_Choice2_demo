@@ -1112,7 +1112,7 @@
               <long name="is-transient">0</long>
               <long name="locked">0</long>
               <long name="owns-file">1</long>
-              <string name="proxy-AlignH">"Right"</string>
+              <string name="proxy-AlignH">"Centre"</string>
               <string name="proxy-AlignV">"Centre"</string>
               <string name="proxy-Background colour">""</string>
               <string name="proxy-Base class">"wxStaticText"</string>
